@@ -1,7 +1,7 @@
 Source: gnome-boxes
 Section: gnome
 Priority: optional
-Maintianer: BlankOn Developers <blankon-dev@googlegroups.com>
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: Jeremy Bicha <jbicha@ubuntu.com>, @GNOME_TEAM@
 Build-Depends: cdbs (>= 0.4.41),
