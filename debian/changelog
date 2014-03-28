@@ -1,3 +1,26 @@
+gnome-boxes (3.12.0-1blankon1) tambora; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Sat, 29 Mar 2014 00:46:08 +0700
+
+gnome-boxes (3.12.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update build-dependencies according to configure.ac changes:
+    - Bump libglib2.0-dev to >= 2.38.0
+    - Bump libgtk-3-dev to >= 3.11
+    - Bump libosinfo-1.0-dev to >= 0.2.9
+    - Switch vala to 0.24 branch (>= 0.23.1.1)
+    - Add tracker branch 1.0 as alternative to 0.16
+  * Drop debian/patches/0001-Revert-Update-to-libvirt-gconfig-0.1.7.patch
+    - no longer needed.
+  * Bump libvirt-glib build-dependency to >= 0.1.7, see entry above.
+  * Bump Standards-Version to 3.9.5
+  * Have quilt refresh debian/patches/01_drop-onlyshowin.patch to apply.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Wed, 26 Mar 2014 22:31:50 +0100
+
 gnome-boxes (3.10.0-0blankon1) suroboyo; urgency=low
 
   * New upstream release
